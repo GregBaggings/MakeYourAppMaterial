@@ -9,8 +9,8 @@
 
     <FrameLayout
         android:id="@+id/up_container"
-        android:background="@android:color/transparent"
         android:layout_width="match_parent"
+        android:background="@android:color/transparent"
         android:layout_height="?actionBarSize">
 
         <ImageButton
@@ -20,6 +20,7 @@
             android:layout_height="?actionBarSize"
             android:background="?selectableItemBackgroundBorderless"
             android:contentDescription="@string/up"
-            android:src="@drawable/ic_arrow_back" />
+            android:src="@drawable/ic_arrow_back"
+            android:layout_marginTop="20dp"/>
     </FrameLayout>
 </FrameLayout>
